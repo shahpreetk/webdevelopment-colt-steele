@@ -1,0 +1,68 @@
+// {
+//     "liveServer.settings.CustomBrowser": "chrome",
+//     "liveServer.settings.useLocalIp": true,
+//     "files.autoSave": "afterDelay",
+//     "editor.fontSize": 14,
+//     "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+//     "editor.renderWhitespace": "all",
+//     "editor.wordWrap": "on"
+// }
+
+{
+    "editor.fontSize": 14,
+    "editor.wordWrap": "on",
+    "files.autoSave": "afterDelay",
+    "window.zoomLevel": 0,
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "terminal.integrated.shell.osx": "/bin/bash",
+    //"workbench.colorTheme": "Cobalt2",
+    "workbench.iconTheme": "eq-material-theme-icons-ocean",
+    "editor.fontLigatures": true,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.maxColumn": 200,
+    "editor.minimap.showSlider": "always",
+    "editor.smoothScrolling": true,
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "terminal.integrated.rendererType": "dom",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "workbench.colorTheme": "Material Theme Ocean High Contrast",
+    "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.lineHeight": 25,
+    "editor.letterSpacing": 0.5,
+    "files.trimTrailingWhitespace": true,
+    "editor.fontWeight": "400",
+    "prettier.eslintIntegration": true,
+    //"eslint.autoFixOnSave": true,
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 5,
+    // Very important: Install this plugin: https://github.com/be5invis/vscode-custom-css
+    // you'll need to change this to an absolute path on your computer
+    "vscode_custom_css.imports": [
+        "file:///C:/cobalt2-custom-hacks.css"
+    ],
+    "editor.renderWhitespace": "all",
+    "vscode_custom_css.policy": true,
+    "workbench.colorCustomizations": {},
+    "diffEditor.ignoreTrimWhitespace": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+}
